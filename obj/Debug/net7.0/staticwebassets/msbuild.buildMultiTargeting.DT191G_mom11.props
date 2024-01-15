@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DT191G_mom11.props" />
+</Project>
