@@ -2,7 +2,7 @@
 
 <h1>Razor</h1>
 
-<h2>Kurser du har läst:</h2>
+<h2>Kurser:</h2>
 <ul>
     @foreach (var course in GetCourseList())
     {
@@ -13,7 +13,6 @@
 <h2>Datum och klockslag:</h2>
 <p>Det är nu @DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")</p>
 
-<h2>Idag är det:</h2>
 @if (DateTime.Now.DayOfWeek == DayOfWeek.Monday)
 {
     <p>Idag är det måndag</p>
@@ -26,7 +25,7 @@ else
 @functions {
     public List<string> GetCourseList()
     {
-        // Returnera en lista med kurser i sträng-format här
+        // Returnerar en lista med kurser i sträng-format
         return new List<string>
         {
             "DT057G, Webbutveckling I",
@@ -34,7 +33,8 @@ else
             "DT084G, Introduktion till Programmering i Javascript",
             "DT200G, Grafisk teknik för webb",
             "DT071G, Programmering i C#",
-            "DT162G, Fullstack-utveckling med ramverk",
+            "DT162G, Javascriptbaserad webbutveckling",
+            "DT193G, Fullstack-utveckling med ramverk",
             "IK060G, Projektledning",
             "DT003G, Databaser",
             "DT093G, Webutveckling II",

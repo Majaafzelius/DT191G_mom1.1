@@ -3968,7 +3968,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom:  0.5rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4058,9 +4058,11 @@ textarea.form-control-lg {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
+    
   }
   .navbar-expand-sm .navbar-nav {
     flex-direction: row;
+    
   }
   .navbar-expand-sm .navbar-nav .dropdown-menu {
     position: absolute;
@@ -4373,6 +4375,7 @@ textarea.form-control-lg {
 
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
+  
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);

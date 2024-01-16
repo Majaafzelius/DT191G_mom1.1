@@ -8,6 +8,16 @@ a.navbar-brand[b-4s4i9bwwsj] {
   word-break: break-all;
 }
 
+.navbar-nav[b-4s4i9bwwsj] {
+  display:grid;
+  grid-template-columns: auto;
+
+
+}
+.maindiv[b-4s4i9bwwsj] {
+  padding: 0px 20px;
+}
+
 a[b-4s4i9bwwsj] {
   color: #0077cc;
 }
@@ -46,5 +56,9 @@ button.accept-policy[b-4s4i9bwwsj] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+.pb-3[b-4s4i9bwwsj] {
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 

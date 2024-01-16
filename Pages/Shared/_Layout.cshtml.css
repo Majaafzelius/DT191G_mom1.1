@@ -7,6 +7,16 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+.navbar-nav {
+  display:grid;
+  grid-template-columns: auto;
+
+
+}
+.maindiv {
+  padding: 0px 20px;
+}
+
 a {
   color: #0077cc;
 }
@@ -45,5 +55,9 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+.pb-3 {
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 

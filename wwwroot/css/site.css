@@ -1,6 +1,16 @@
 html {
   font-size: 14px;
 }
+header {
+  display: grid;
+  grid-template-columns: auto auto;
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+  margin-bottom: 5%;
+  padding: 2%;
+  text-align: center;
+  align-items: center;
+  
+}
 
 @media (min-width: 768px) {
   html {
