@@ -1,9 +1,45 @@
 @page
-@model IndexModel
-@{
-    ViewData["Title"] = "Razor";
+
+<h1>Razor</h1>
+
+<h2>Kurser du har läst:</h2>
+<ul>
+    @foreach (var course in GetCourseList())
+    {
+        <li>@course</li>
+    }
+</ul>
+
+<h2>Datum och klockslag:</h2>
+<p>Det är nu @DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")</p>
+
+<h2>Idag är det:</h2>
+@if (DateTime.Now.DayOfWeek == DayOfWeek.Monday)
+{
+    <p>Idag är det måndag</p>
+}
+else
+{
+    <p>Idag är det inte måndag</p>
 }
 
-<div class="text-center">
-    <h1 class="display-4">Razor</h1>
-</div>
+@functions {
+    public List<string> GetCourseList()
+    {
+        // Returnera en lista med kurser i sträng-format här
+        return new List<string>
+        {
+            "DT057G, Webbutveckling I",
+            "DT068G, Webbanvändbarhet",
+            "DT084G, Introduktion till Programmering i Javascript",
+            "DT200G, Grafisk teknik för webb",
+            "DT071G, Programmering i C#",
+            "DT162G, Fullstack-utveckling med ramverk",
+            "IK060G, Projektledning",
+            "DT003G, Databaser",
+            "DT093G, Webutveckling II",
+            "DT173G, Webutveckling III",
+            "DT197G, Webbdesign för CMS"
+        };
+    }
+}
