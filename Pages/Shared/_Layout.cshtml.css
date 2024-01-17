@@ -15,6 +15,7 @@ a.navbar-brand {
 }
 .maindiv {
   padding: 0px 20px;
+  border-left: 1px solid black;
 }
 
 a {
@@ -58,6 +59,6 @@ button.accept-policy {
 }
 .pb-3 {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 20% 60%;
 }
 

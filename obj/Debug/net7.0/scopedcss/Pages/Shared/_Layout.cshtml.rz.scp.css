@@ -15,6 +15,7 @@ a.navbar-brand[b-4s4i9bwwsj] {
 }
 .maindiv[b-4s4i9bwwsj] {
   padding: 0px 20px;
+  border-left: 1px solid black;
 }
 
 a[b-4s4i9bwwsj] {
@@ -58,6 +59,6 @@ button.accept-policy[b-4s4i9bwwsj] {
 }
 .pb-3[b-4s4i9bwwsj] {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 20% 60%;
 }
 

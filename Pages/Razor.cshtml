@@ -1,8 +1,8 @@
 @page
 
-<h1>Razor</h1>
+<h1 class="display-4">Razor</h1>
 
-<h2>Kurser:</h2>
+<h2 class="display-6">Kurser:</h2>
 <ul>
     @foreach (var course in GetCourseList())
     {
@@ -10,7 +10,7 @@
     }
 </ul>
 
-<h2>Datum och klockslag:</h2>
+<h2 class="display-6">Datum och klockslag:</h2>
 <p>Det är nu @DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")</p>
 
 @if (DateTime.Now.DayOfWeek == DayOfWeek.Monday)
