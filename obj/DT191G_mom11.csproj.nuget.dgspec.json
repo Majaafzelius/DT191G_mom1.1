@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\DT191G\\dt191g_mom11\\DT191G_mom11.csproj": {}
+    "C:\\xampp\\htdocs\\dt191g\\dt191g_mom11\\DT191G_mom11.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\DT191G\\dt191g_mom11\\DT191G_mom11.csproj": {
+    "C:\\xampp\\htdocs\\dt191g\\dt191g_mom11\\DT191G_mom11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\DT191G\\dt191g_mom11\\DT191G_mom11.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\dt191g\\dt191g_mom11\\DT191G_mom11.csproj",
         "projectName": "DT191G_mom11",
-        "projectPath": "C:\\xampp\\htdocs\\DT191G\\dt191g_mom11\\DT191G_mom11.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\dt191g\\dt191g_mom11\\DT191G_mom11.csproj",
         "packagesPath": "C:\\Users\\gamer\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\DT191G\\dt191g_mom11\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\dt191g\\dt191g_mom11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
