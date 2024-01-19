@@ -8,10 +8,13 @@ a.navbar-brand[b-4s4i9bwwsj] {
   word-break: break-all;
 }
 
-.navbar-nav[b-4s4i9bwwsj] {
+@media screen and (min-width:576px) {
+  .navbar-nav[b-4s4i9bwwsj] {
   display:grid;
   grid-template-columns: auto;
 
+
+}
 
 }
 .maindiv[b-4s4i9bwwsj] {

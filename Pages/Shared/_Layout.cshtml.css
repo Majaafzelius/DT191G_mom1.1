@@ -7,10 +7,13 @@ a.navbar-brand {
   word-break: break-all;
 }
 
-.navbar-nav {
+@media screen and (min-width:576px) {
+  .navbar-nav {
   display:grid;
   grid-template-columns: auto;
 
+
+}
 
 }
 .maindiv {
